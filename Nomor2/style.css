@@ -10,6 +10,7 @@ body {
 
 .maincontainer {
     display: grid;
+    align-self: baselie;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
     gap: 10px;
@@ -46,11 +47,13 @@ button:hover {
 @media screen and (max-width: 768px) {
     .maincontainer {
         grid-template-columns: repeat(2, 1fr);
+        align-self: baselie;
     }
 }
 
 @media screen and (max-width: 480px) {
     .maincontainer {
         grid-template-columns: 1fr;
+        align-self: baselie;
     }
 }
