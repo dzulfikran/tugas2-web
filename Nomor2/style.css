@@ -47,7 +47,7 @@ button:hover {
 @media screen and (max-width: 768px) {
     .maincontainer {
         grid-template-columns: repeat(2, 1fr);
-        align-self: baselie;
+        align-self: center;
         align-items: flex-start;
     }
 }
@@ -55,7 +55,7 @@ button:hover {
 @media screen and (max-width: 480px) {
     .maincontainer {
         grid-template-columns: 1fr;
-        align-self: baselie;
+        align-self: center;
         align-items: flex-start;
     }
 }
