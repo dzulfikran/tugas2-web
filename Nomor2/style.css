@@ -48,6 +48,7 @@ button:hover {
     .maincontainer {
         grid-template-columns: repeat(2, 1fr);
         align-self: baselie;
+        align-items: flex-start;
     }
 }
 
@@ -55,5 +56,6 @@ button:hover {
     .maincontainer {
         grid-template-columns: 1fr;
         align-self: baselie;
+        align-items: flex-start;
     }
 }
